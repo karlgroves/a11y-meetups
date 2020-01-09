@@ -1,0 +1,33 @@
+# -*- mode: gitignore; -*-
+node_modules
+.DS_Store
+*.log
+*.log.*
+*.orig
+.vscode/*
+
+### PHP storm/ IntelliJ ###
+.idea
+.idea/*
+.idea/workspace.xml
+atlassian-ide-plugin.xml
+.settings
+*.iml
+
+### vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+### Emacs ###
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
